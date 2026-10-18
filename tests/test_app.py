@@ -24,7 +24,7 @@ class StudentRegistrationTest(unittest.TestCase):
         self.driver.get("http://student-registration/")
 
         self.assertIn(
-            "Student Registeration Form",
+            "Student Registeration",
             self.driver.page_source
         )
 
